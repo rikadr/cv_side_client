@@ -11,8 +11,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Hello</h1>
-        <Link href="/about"><a className="text-blue-500">To About</a></Link>
+        <h1>Hello verden!</h1>
+        <Link href="/about"><a className="text-blue-500">Her kan du se på mine posjekter jeg har deltatt i! B-)</a></Link>
       </main>
         
     </div>
