@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer componets {
+    .btn {
+        border-radius: '5px';
+    }
+}
