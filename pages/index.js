@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 class="animate-bounce w-6 h-6 ...">Yo</h1>
+        <h1 className="animate-bounce w-6 h-6 ...">Yo</h1>
         <Link href="/about"><a className="text-blue-500 text-lg">Sjekk meg ut...</a></Link>
       </main>
         
