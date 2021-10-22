@@ -6,11 +6,13 @@ module.exports = {
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       titleItal: ['"Italiana"', "sans-serif"],
+      bread: ['Quicksand', "sans-serif"]
     },
     fontSize: {
       s: "1.6rem",
       m: "2rem",
       lg: "5rem",
+      xs: "1.2rem",
     },
 
     extend: {
@@ -22,6 +24,10 @@ module.exports = {
     container: {
       center: true,
       padding: "1rem",
+      borderStyle: "solid",
+      borderColor: "red",
+      borderWidth: "10px",
+
     },
   },
   variants: {

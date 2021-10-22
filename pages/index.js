@@ -11,20 +11,26 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
-      <main>
-        <div class="filter drop-shadow-lg rounded-full h-80 w-80 flex-col items-center justify-center bg-red-300  ">
-          <h1 className="animate-bounce w-6 h-6 ...">&#8482;</h1>
-          <h1 className="font-titleItal text-lg leading-12">
+      <main className="border-2 border-blue-500">
+        <div class="bg-yellow-200 drop-shadow-lg rounded-full h-80 w-80 flex-col items-center justify-center border-2 border-green-500">
+          <h1 className="animate-bounce w-6 h-6 text-xs border-2 border-green-500">&#10022;</h1>
+          <h1 className="font-titleItal text-lg leading-12 border-2 border-green-500">
             Rikard
             <br /> Noer
-            <br /> Dotzler
+            <br /> Dotzlerrrrrrrr
           </h1>
-          <Link href="/about">
-            <a className=" transition duration-300 translate-x-40 hover:animate-pulse hover:text-red-500 text-black-900 text-s leading-10"> &#8594; Sjekk meg ut...</a>
+          <Link href="/about" className="bg-clip-text border-2 border-green-500">
+            <a className="transition duration-300 hover:animate-pulse hover:text-gray-500 text-black-900 text-s font-bread leading-10 hover:font-bold border-2 border-green-500">
+              &#8594; Sjekk meg ut...
+            </a>
           </Link>
-          
+          <br />
         </div>
       </main>
     </div>
