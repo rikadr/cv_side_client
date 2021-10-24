@@ -24,10 +24,6 @@ module.exports = {
     container: {
       center: true,
       padding: "1rem",
-      borderStyle: "solid",
-      borderColor: "red",
-      borderWidth: "10px",
-
     },
   },
   variants: {
