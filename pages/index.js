@@ -1,9 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 
+
+
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-gray-900">
       <Head>
         <title>Rikard Dotzler Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -17,40 +19,112 @@ export default function Home() {
         ></link>
       </Head>
 
-      <div id="backdropGrid" className="absolute z-1 w-full">
+      <div className="backdropGrid">
 
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-300"></div>
-        <div className="relative z-10 w-full h-10 bg-gray-400"></div>
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
+
+        <div className="backdropSlit motion-safe:animate-fadeIn">
+          <div className="slitBack">Back</div>
+          <div className="slitFront">Front</div>
+        </div>
 
       </div>
 

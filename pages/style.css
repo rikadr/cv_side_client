@@ -6,4 +6,31 @@
     .btn {
         border-radius: '5px';
     }
+
+    
+}
+
+.backdropGrid {
+    position: absolute;
+    width: 100%;
+}
+
+.backdropSlit {
+    position: relative;
+    width: 100%;
+    height: 5rem/* 40px */;
+}
+
+.slitFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.slitBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(107, 107, 107);
 }

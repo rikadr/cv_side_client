@@ -3,6 +3,7 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       titleItal: ['"Italiana"', "sans-serif"],
@@ -21,6 +22,7 @@ module.exports = {
       },
       animation: {
         beat: 'beat 1.3s ease-in-out infinite',
+        fadeIn: "fadeIn 0.5s ease-in forwards",
       },
       keyframes: {
         beat: {
@@ -28,6 +30,10 @@ module.exports = {
           '15%': { transform: 'scale(1.01)'},
           '55%': { transform: 'scale(1.03)'},
         },
+        fadeIn: {
+          "0%": { transform: 'rotatex(90deg)'},
+          "100%": { transform: 'rotatex(-3600deg)'}
+        }
       },
     },
 
@@ -37,6 +43,9 @@ module.exports = {
     },
   },
   variants: {
+    variants: {
+      animation: ["motion-safe"]
+    },
     extend: {
     },
   },

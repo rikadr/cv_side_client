@@ -18,10 +18,7 @@ export default function About() {
             {/* <a href="https://fredrikoh92.github.io/Final_Project_18/index.html" className="text-blue-500">Klikk her!</a> */}
 
             {/* <a href="https://www.gitta.tech" className="text-blue-500">Eller her!</a> */}
-            
-            <button onClick={() => setSwhoeModal(true)} className="bg-blue-300 hover:bg-blue-200 rounded-full px-5 text-white">
-              MODAL
-            </button>
+           
             
             <Link href="/">
               <button
