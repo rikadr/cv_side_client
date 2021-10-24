@@ -19,6 +19,16 @@ module.exports = {
       lineHeight: {
         12: "4.5rem",
       },
+      animation: {
+        beat: 'beat 1.3s ease-in-out infinite',
+      },
+      keyframes: {
+        beat: {
+          '0%, 35%, 80%, 100%': { transform: 'scale(1)'},
+          '15%': { transform: 'scale(1.01)'},
+          '55%': { transform: 'scale(1.03)'},
+        },
+      },
     },
 
     container: {
@@ -27,7 +37,8 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+    },
   },
   plugins: [],
 };
