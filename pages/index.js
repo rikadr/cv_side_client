@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-500">
       <Head>
         <title>Rikard Dotzler Portfolio</title>
         <link rel="icon" href="/favicon.ico" />

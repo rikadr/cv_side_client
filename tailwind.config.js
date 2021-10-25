@@ -32,7 +32,7 @@ module.exports = {
         },
         fadeIn: {
           "0%": { transform: 'rotatex(90deg)'},
-          "100%": { transform: 'rotatex(-3600deg)'}
+          "100%": { transform: 'rotatex(0deg)'}
         }
       },
     },
