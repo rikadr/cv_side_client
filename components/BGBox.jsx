@@ -1,3 +1,4 @@
+import React from 'react';
 import BackdropSlit from "./BackdropSlit"
 
 const BGBox = () => {

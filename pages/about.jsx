@@ -1,6 +1,8 @@
+import React, { useEffect, useRef, useState } from 'react';
 import Head from "next/head";
+
 import Link from "next/link";
-import BGBox from "../comps/BGBox";
+import BGBox from "../components/BGBox";
 
 export default function About() {
   return (
