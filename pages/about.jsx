@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 
 import Link from "next/link";
@@ -10,11 +10,9 @@ export default function About() {
       <Head>
         <title>About page</title>
       </Head>
-      <BGBox className="animate-fadeIn"/>
-      
+      <BGBox />
+
       <main className="container ">
-        
-      
         <div>
           {" "}
           {/* class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" */}
@@ -24,8 +22,7 @@ export default function About() {
             {/* <a href="https://fredrikoh92.github.io/Final_Project_18/index.html" className="text-blue-500">Klikk her!</a> */}
 
             {/* <a href="https://www.gitta.tech" className="text-blue-500">Eller her!</a> */}
-           
-            
+
             <Link href="/">
               <button
                 class="transition duration-200 transform hover:translate-x-40 hover:translate-y-40 hover: scale-50 

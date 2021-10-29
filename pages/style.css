@@ -14,17 +14,21 @@
 .BGBox {
     position: absolute;
     width: 100%;
-    background-color: rgb(233, 233, 233);
 }
 
 .backdropSlit {
     position: relative;
     width: 100%;
-    height: 4rem/* 40px */;
+    height: 3rem/* 40px */;
 }
 
 .backdropSlit .front {
     background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.backdropSlit .back {
+    background-color: rgb(212, 212, 212);
     height: 100%;
 }
 
