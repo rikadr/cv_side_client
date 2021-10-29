@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
+import BackdropSlit from "../comps/BackdropSlit";
 
 
 
 export default function Home() {
   return (
-    <div className="bg-gray-500">
+    <div className=""> {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
         <title>Rikard Dotzler Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
@@ -19,117 +20,35 @@ export default function Home() {
         ></link>
       </Head>
 
-      <div className="backdropGrid">
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
-        <div className="backdropSlit motion-safe:animate-fadeIn">
-          <div className="slitBack">Back</div>
-          <div className="slitFront">Front</div>
-        </div>
-
+      
+      
+      <div className="ackdropGrid ">
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
+        <BackdropSlit />
       </div>
 
-      <main className="relative z-40 flex flex-col items-center justify-center min-h-screen py-2 border-2 border-green-400 ">
-        <div class="bg-yellow-200 drop-shadow-lg rounded-full h-80 w-80 flex-col items-center justify-center animate-beat">
+      <main className="relative z-40 flex flex-col items-center justify-center min-h-screen py-2 border-2 border-green-400">
+        <div class="bg-yellow-200 drop-shadow-lg rounded-full h-80 w-80 flex-col items-center justify-center">
           <h1 className="animate-beat w-6 h-6 text-xs ">
             &#10022;
           </h1>

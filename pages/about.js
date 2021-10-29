@@ -8,7 +8,9 @@ export default function About() {
         <title>About page</title>
       </Head>
 
+
       <main className="container ">
+      
         <div>
           {" "}
           {/* class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full" id="my-modal" */}
