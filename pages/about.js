@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import BGBox from "../comps/BGBox";
 
 export default function About() {
   return (
@@ -7,9 +8,10 @@ export default function About() {
       <Head>
         <title>About page</title>
       </Head>
-
-
+      <BGBox className="animate-fadeIn"/>
+      
       <main className="container ">
+        
       
         <div>
           {" "}

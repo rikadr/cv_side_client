@@ -1,8 +1,8 @@
 const BackdropSlit = () => {
     return (
-        <div>
-            <div className="backdropSlit animate-fadeIn">
-                Slit
+        <div className="backdropSlit">
+            <div className="front animate-fadeIn">
+                
             </div>
         </div>
     );

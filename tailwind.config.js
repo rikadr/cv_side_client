@@ -22,7 +22,7 @@ module.exports = {
       },
       animation: {
         beat: 'beat 1.3s ease-in-out infinite',
-        fadeIn: "fadeIn 0.5s ease-in forwards",
+        fadeIn: "fadeIn 0.8s ease-out forwards",
       },
       keyframes: {
         beat: {
