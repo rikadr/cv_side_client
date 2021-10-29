@@ -44,7 +44,7 @@ module.exports = {
   },
   variants: {
     variants: {
-      animation: ["motion-safe"]
+      /*animation: ["motion-safe"]*/
     },
     extend: {
     },

@@ -11,7 +11,7 @@
 
 
 
-.ackdropGrid {
+.BGBox {
     position: absolute;
     background-color: rgb(218, 218, 218);
 }
@@ -19,7 +19,7 @@
 .backdropSlit {
     position: relative;
     width: 100vw;
-    background-color: rgb(148, 83, 83);
-    height: 5rem/* 40px */;
+    background-color: rgb(255, 255, 255);
+    height: 8rem/* 40px */;
 }
 

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import BackdropSlit from "../comps/BackdropSlit";
+import BGBox from "../comps/BGBox";
 
 
 
@@ -22,31 +23,8 @@ export default function Home() {
 
       
       
-      <div className="ackdropGrid ">
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-        <BackdropSlit />
-      </div>
-
+      <BGBox className="animate-fadeIn blur"/>
+      
       <main className="relative z-40 flex flex-col items-center justify-center min-h-screen py-2 border-2 border-green-400">
         <div class="bg-yellow-200 drop-shadow-lg rounded-full h-80 w-80 flex-col items-center justify-center">
           <h1 className="animate-beat w-6 h-6 text-xs ">
