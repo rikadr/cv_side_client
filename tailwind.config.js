@@ -1,39 +1,74 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
       titleItal: ['"Italiana"', "sans-serif"],
-      bread: ['Quicksand', "sans-serif"]
+      bread: ["Quicksand", "sans-serif"],
     },
     fontSize: {
-      s: "1.6rem",
-      m: "2rem",
-      lg: "5rem",
       xs: "1.2rem",
+      s: "1.8rem",
+      m: "4rem",
+      lg: "5rem",
     },
 
     extend: {
+      fontSize: {
+        a: "1.0rem",
+        b: "1.2rem",
+        c: "1.4rem",
+        d: "1.6rem",
+        e: "1.8rem",
+        f: "2.0rem",
+        g: "2.2rem",
+        h: "2.4rem",
+        i: "2.6rem",
+        j: "2.8rem",
+        k: "3.0rem",
+        l: "3.2rem",
+        m: "3.4rem",
+        n: "3.6rem",
+        o: "3.8rem",
+        p: "4.0rem",
+        q: "4.2rem",
+        r: "4.4rem",
+        s: "4.6rem",
+        t: "4.8rem",
+        u: "5.0rem",
+        v: "5.2rem",
+        w: "5.4rem",
+        x: "5.6rem",
+        y: "5.8rem",
+        z: "6.0rem",      
+      },
       lineHeight: {
+        10: "3.2rem",
+        11: "3.5rem",
         12: "4.5rem",
       },
       animation: {
-        beat: 'beat 1.3s ease-in-out infinite',
-        fadeIn: "fadeIn 0.5s ease-in forwards",
+        beat: "beat 1.3s ease-in-out infinite",
+        flipIn: "flipIn 0.7s ease-in-out forwards",
+        fadeIn: "fadeIn 0.7s ease-out forwards",
       },
       keyframes: {
         beat: {
-          '0%, 35%, 80%, 100%': { transform: 'scale(1)'},
-          '15%': { transform: 'scale(1.01)'},
-          '55%': { transform: 'scale(1.03)'},
+          "0%, 35%, 80%, 100%": { transform: "scale(1)" },
+          "15%": { transform: "scale(1.01)" },
+          "55%": { transform: "scale(1.03)" },
+        },
+        flipIn: {
+          "0%": { transform: "rotatex(90deg)"},
+          "50%": { transform: "rotatex(90deg)" },
+          "100%": { transform: "rotatex(0deg)" },
         },
         fadeIn: {
-          "0%": { transform: 'rotatex(90deg)'},
-          "100%": { transform: 'rotatex(0deg)'}
-        }
+          "0%": { opacity: "0.0" },
+          "100%": { opacity: "1.0" },
+        },
       },
     },
 
@@ -44,10 +79,9 @@ module.exports = {
   },
   variants: {
     variants: {
-      animation: ["motion-safe"]
+      /*animation: ["motion-safe"]*/
     },
-    extend: {
-    },
+    extend: {},
   },
   plugins: [],
 };

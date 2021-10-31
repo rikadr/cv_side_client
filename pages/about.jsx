@@ -1,5 +1,8 @@
+import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
+
 import Link from "next/link";
+import BGBox from "../components/BG/BGBox";
 
 export default function About() {
   return (
@@ -7,6 +10,7 @@ export default function About() {
       <Head>
         <title>About page</title>
       </Head>
+      <BGBox />
 
       <main className="container ">
         <div>
@@ -18,8 +22,7 @@ export default function About() {
             {/* <a href="https://fredrikoh92.github.io/Final_Project_18/index.html" className="text-blue-500">Klikk her!</a> */}
 
             {/* <a href="https://www.gitta.tech" className="text-blue-500">Eller her!</a> */}
-           
-            
+
             <Link href="/">
               <button
                 class="transition duration-200 transform hover:translate-x-40 hover:translate-y-40 hover: scale-50 
