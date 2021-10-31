@@ -4,7 +4,7 @@ import BackdropSlit from "./BackdropSlit";
 const BGBox = () => {
   return (
     <div className="BGBox">
-      {Array(1000).fill(<BackdropSlit />)}
+      {Array(100).fill(<BackdropSlit />)}
     </div>
   );
 };
