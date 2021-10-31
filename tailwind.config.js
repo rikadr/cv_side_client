@@ -51,8 +51,8 @@ module.exports = {
       },
       animation: {
         beat: "beat 1.3s ease-in-out infinite",
-        flipIn: "flipIn 0.7s ease-in-out forwards",
-        fadeIn: "fadeIn 0.7s ease-out forwards",
+        flipIn: "flipIn 0.7s ease-out forwards",
+        fadeIn: "fadeIn 0.7s ease-in-out forwards",
       },
       keyframes: {
         beat: {
@@ -62,7 +62,7 @@ module.exports = {
         },
         flipIn: {
           "0%": { transform: "rotatex(90deg)"},
-          "50%": { transform: "rotatex(90deg)" },
+          "30%": { transform: "rotatex(90deg)" },
           "100%": { transform: "rotatex(0deg)" },
         },
         fadeIn: {

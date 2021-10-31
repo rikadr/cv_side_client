@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-red-900">
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
         <title>Rikard Dotzler Portfolio</title>
