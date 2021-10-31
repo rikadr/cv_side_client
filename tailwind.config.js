@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -21,8 +21,8 @@ module.exports = {
       },
       animation: {
         beat: "beat 1.3s ease-in-out infinite",
-        flipIn: "flipIn 0.8s ease-out forwards",
-        fadeIn: "fadeIn 0.8s ease-out forwards",
+        flipIn: "flipIn 0.7s ease-in-out forwards",
+        fadeIn: "fadeIn 0.7s ease-out forwards",
       },
       keyframes: {
         beat: {
@@ -32,7 +32,7 @@ module.exports = {
         },
         flipIn: {
           "0%": { transform: "rotatex(90deg)"},
-          "70%": { transform: "rotatex(90deg)" },
+          "50%": { transform: "rotatex(90deg)" },
           "100%": { transform: "rotatex(0deg)" },
         },
         fadeIn: {

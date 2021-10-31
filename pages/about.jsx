@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 
 import Link from "next/link";
-import BGBox from "../components/BGBox";
+import BGBox from "../components/BG/BGBox";
 
 export default function About() {
   return (
