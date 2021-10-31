@@ -5,7 +5,7 @@ import SjekkMegUt from "./SjekkMegUt";
 
 const SirkelNavn = () => {
   return (
-    <div className="relative z-40 flex flex-col items-center justify-center min-h-screen py-2 border-2 border-green-400">
+    <div className="relative z-40 flex flex-col items-center justify-center min-h-screen py-2">
       
       <div className="w-72 h-72 sm:w-96 sm:h-96">
         <div class="bg-yellow-500 drop-shadow-lg rounded-full h-full w-full 

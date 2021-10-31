@@ -3,37 +3,7 @@ import BackdropSlit from "./BackdropSlit";
 
 const BGBox = () => {
   return (
-    <div className="BGBox">
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
-      <BackdropSlit />
+    <div className="BGBox animate-fadeIn">
       <BackdropSlit />
       <BackdropSlit />
       <BackdropSlit />
