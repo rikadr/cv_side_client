@@ -56,9 +56,9 @@ module.exports = {
       },
       keyframes: {
         beat: {
-          "0%, 35%, 80%, 100%": { transform: "scale(1)" },
-          "15%": { transform: "scale(1.01)" },
-          "55%": { transform: "scale(1.03)" },
+          "0%, 20%, 45%, 100%": { transform: "scale(1)" },
+          "10%": { transform: "scale(1.01)" },
+          "30%": { transform: "scale(1.02)" },
         },
         flipIn: {
           "0%": { transform: "rotatex(90deg)"},
