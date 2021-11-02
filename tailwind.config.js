@@ -1,6 +1,7 @@
 module.exports = {
   mode: "jit",
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}"],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}",
+          "./components/ContentCard/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -44,6 +45,10 @@ module.exports = {
         y: "5.8rem",
         z: "6.0rem",      
       },
+      height: {
+        tall: '31rem',
+        mtall: '26rem',
+       },
       lineHeight: {
         10: "3.2rem",
         11: "3.5rem",
