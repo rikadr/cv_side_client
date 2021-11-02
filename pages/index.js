@@ -4,29 +4,29 @@ import Head from "next/head";
 import BGBox from "../components/BG/BGBox";
 import SirkelNavn from "../components/SirkelNavn/SirkelNavn";
 import Link from "next/link";
+import ContentCardSplit from "../components/ContentCard/ContentCardSplit";
 
 export default function Home() {
   return (
-    <div className="bg-red-900">
+    <div className="bg-purple-300">
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
-        <title>Rikard Dotzler Portfolio</title>
-        <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Italiana&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap"
-          rel="stylesheet"
-        ></link>
+      <title>Rikard Dotzler Portfolio</title>
       </Head>
 
+      {/*<BGBox />*/}
       <BGBox />
+      
 
-      <main>
+      <main className="font-bread">
         <SirkelNavn />
+        <ContentCardSplit />
+        <ContentCardSplit />
+        <ContentCardSplit />
       </main>
+
+      
+
     </div>
   );
 }

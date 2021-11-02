@@ -7,8 +7,8 @@ const BackdropSlit = () => {
   const isVisible = UseElementOnScreen(
     {
       root: null,
-      marginRoot: '-200px -200px -200px -200px',
-      threshold: 0.0
+      marginRoot: '200px 200px 200px 200px',
+      threshold: 0.9
     },
     targetRef
   );
