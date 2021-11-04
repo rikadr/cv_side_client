@@ -27,7 +27,7 @@ const SirkelNavn = () => {
           <div className="my-14 sm:my-20 mx-8 sm:mx-12">
             <Ord tekst1="Rikard" tekst2="Designer"/>
             <Ord tekst1="Noer" tekst2="Web"/>
-            <Ord tekst1="Dotzler" tekst2="Develuper"/>
+            <Ord tekst1="Dotzler" tekst2="Developer"/>
                 <SjekkMegUt />
           </div>
         </div>
