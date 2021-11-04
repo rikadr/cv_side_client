@@ -14,7 +14,7 @@ export default function Home() {
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
       <title>Rikard Dotzler Portfolio</title>
-      <meta name="dscription" content="Portfolio page for Rikard Noer Dotzler"/>
+      <meta name="description" content="Portfolio page for Rikard Noer Dotzler"/>
       </Head>
 
       {/*<BGBox />*/}
@@ -23,10 +23,7 @@ export default function Home() {
 
       <main className="font-bread">
         <SirkelNavn />
-        <ContentCardSplit id="skills" />
-
-        <Image src="/public/images/designbig.jpg" alt="Design" width="1800" height="1200" className="" quality="25" />
-
+        <ContentCardSplit id="skills" image="designbig.jpg" alt="Design" q="100"/>
         <ContentCardSplit />
         <ContentCardSplit />
       </main>
