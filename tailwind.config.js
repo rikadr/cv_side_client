@@ -17,6 +17,10 @@ module.exports = {
     },
 
     extend: {
+      width: {
+        'card': '1150px',
+
+      },
       fontSize: {
         a: "1.0rem",
         b: "1.2rem",
