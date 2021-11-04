@@ -13,7 +13,7 @@ const SirkelNavn = () => {
     }
     return (
       <div onMouseEnter={toggle} onMouseLeave={toggle}>
-        <h1 className="font-titleItal text-p sm:text-u leading-11 sm:leading-12">{visible ? tekst2 : tekst1}</h1>
+        <h1 className={`font-titleItal text-p sm:text-u leading-11 sm:leading-12 ${visible ? 'text-white drop-shadow-lg' : ''}`}>{visible ? tekst2 : tekst1}</h1>
       </div>
     )
   }
