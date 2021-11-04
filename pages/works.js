@@ -3,6 +3,7 @@ import Head from "next/head";
 
 import Link from "next/link";
 import BGBox from "../components/BG/BGBox";
+import ContentCardSplitPreview from "../components/ContentCard/ContentCardSplitPreview";
 
 export default function About() {
   return (
@@ -14,17 +15,19 @@ export default function About() {
 
       <main className="container ">
         <div>
-          <div className="flex flex-col justify-center items-center h-screen text-m">
-            <h1 class="animate-pulse">Works</h1>
+          <div className="flex flex-col justify-center items-center">
+            <h1 class="animate-pulse text-m">Works</h1>
 
             <Link href="/">
               <button
-                className="relative transition duration-200 bg-red-500 hover:bg-green-400 active:bg-green-700 text-white text-f font-bold py-2 px-4 rounded-lg "
-              >
+                className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-d font-bold py-2 px-4 rounded-lg ">
                 Hjem
               </button>
             </Link>
           </div>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 1"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 2"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 3"/>
         </div>
       </main>
     </>
