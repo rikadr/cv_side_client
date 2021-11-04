@@ -5,7 +5,7 @@ const SjekkMegUt = () => {
     return (
       <div>
         <br />
-          <Link href="/">
+          <Link href="/#skills">
             <a className="transition duration-150 hover:animate-pulse hover:text-white 
             text-black-900 text-d sm:text-e font-bread leading-9 hover:font-bold">
               &nbsp; <span className="invisible sm:visible text-a sm:text-e"> 
