@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Quicksand&display=swap');
+
 @layer componets {
     .btn {
         border-radius: '5px';
@@ -25,7 +28,7 @@
 
 .backdropSlit .front {
     position: absolute;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(230, 230, 230);
     height: 100%;
     width: 100%;
 }
