@@ -2,6 +2,9 @@ import React from "react";
 import Image from "next/image";
 
 const ContentCardSplitPreview = ({ id, image, alt, q, heading }) => {
+
+
+
   return (
     <div
       id={id}
@@ -17,7 +20,7 @@ const ContentCardSplitPreview = ({ id, image, alt, q, heading }) => {
             alt={alt}
             quality={q}
             layout="fill"
-            className="rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg"
+            className="rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg" 
           />
         </div>
       </div>
