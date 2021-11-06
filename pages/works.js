@@ -13,6 +13,7 @@ export default function Works() {
         <title>Works</title>
       </Head>
       {/*<BGBox />*/}
+      <BGBox />
 
       <main className="container ">
         <div>
@@ -26,9 +27,9 @@ export default function Works() {
               </button>
             </Link>
           </div>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 1"/>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 2"/>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 3"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 1"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 2"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 3"/>
         </div>
       </main>
     </>

@@ -23,7 +23,7 @@ export default function Home() {
       <main className="font-bread">
         <SirkelNavn />
         <ContentCardSplitText id="about" title="About Me" heading="Designer and Web Developer"/>
-        <ContentCardSplit id="skills" image="designbig.jpg" alt="Design" q="100" heading="Skills"/>
+        <ContentCardSplit id="skills" image="designbig.jpg" alt="Design" q="60" heading="Skills"/>
 
       </main>
 

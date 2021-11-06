@@ -62,7 +62,7 @@ module.exports = {
         beat: "beat 1.3s ease-in-out infinite",
         flipIn: "flipIn 0.7s ease-out forwards",
         fadeIn: "fadeIn 0.7s ease-in-out forwards",
-        enter: "enter 0.4s ease-in forwards",
+        enter: "enter 0.4s ease-in-out forwards",
         exit: "exit 0.3s ease-in-out forwards",
       },
       keyframes: {
@@ -82,8 +82,11 @@ module.exports = {
         },
         enter: {
           "0%": { transform: "rotatex(90deg)" },
-          "65%": { transform: "rotatex(-15deg)" },
-          "100%": { transform: "rotatex(0deg)" },
+          "1%": { transform: "rotatey(90deg)" },
+          "55%": { transform: "rotatex(-10deg)" },
+          "56%": { transform: "rotatey(-10deg)" },
+          "99%": { transform: "rotatex(0deg)" },
+          "100%": { transform: "rotatey(0deg)" },
         },
         exit: {
           "0%": { transform: "rotatex(0deg)" },
