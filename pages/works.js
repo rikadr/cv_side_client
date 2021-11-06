@@ -5,18 +5,20 @@ import Link from "next/link";
 import BGBox from "../components/BG/BGBox";
 import ContentCardSplitPreview from "../components/ContentCard/ContentCardSplitPreview";
 
-export default function About() {
+
+export default function Works() {
   return (
     <>
       <Head>
         <title>Works</title>
       </Head>
+      {/*<BGBox />*/}
       <BGBox />
 
       <main className="container ">
         <div>
           <div className="flex flex-col justify-center items-center">
-            <h1 class="animate-pulse text-m">Works</h1>
+            <h1 className="animate-pulse text-m">Works</h1>
 
             <Link href="/">
               <button
@@ -25,9 +27,9 @@ export default function About() {
               </button>
             </Link>
           </div>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 1"/>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 2"/>
-          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="100" heading="Work 3"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 1"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 2"/>
+          <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Work 3"/>
         </div>
       </main>
     </>

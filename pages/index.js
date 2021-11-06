@@ -5,13 +5,12 @@ import Image from 'next/image'
 
 import BGBox from "../components/BG/BGBox";
 import SirkelNavn from "../components/SirkelNavn/SirkelNavn";
-import Link from "next/link";
 import ContentCardSplit from "../components/ContentCard/ContentCardSplit";
 import ContentCardSplitText from "../components/ContentCard/ContentCardSplitText";
 
 export default function Home() {
   return (
-    <div className="bg-purple-300">
+    <div className="bg-gray-100">
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
       <title>Rikard Dotzler Portfolio</title>
@@ -19,13 +18,12 @@ export default function Home() {
       </Head>
 
       {/*<BGBox />*/}
-      <BGBox />
       
 
       <main className="font-bread">
         <SirkelNavn />
         <ContentCardSplitText id="about" title="About Me" heading="Designer and Web Developer"/>
-        <ContentCardSplit id="skills" image="designbig.jpg" alt="Design" q="100" heading="Skills"/>
+        <ContentCardSplit id="skills" image="designbig.jpg" alt="Design" q="60" heading="Skills"/>
 
       </main>
 

@@ -4,7 +4,7 @@ import Head from "next/head";
 import Link from "next/link";
 import BGBox from "../components/BG/BGBox";
 
-export default function About() {
+export default function Contact() {
   return (
     <>
       <Head>
@@ -15,7 +15,7 @@ export default function About() {
       <main className="container ">
         <div>
           <div className="flex flex-col justify-center items-center h-screen text-m">
-            <h1 class="animate-pulse">Contact</h1>
+            <h1 className="animate-pulse">Contact</h1>
 
             <Link href="/">
               <button

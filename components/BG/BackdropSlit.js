@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useMemo } from "react";
+import React, { useRef } from "react";
 import UseElementOnScreen from '../hooks/UseElementOnScreen';
 
 
