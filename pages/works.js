@@ -66,7 +66,7 @@ export default function Works() {
           </ContentCardSplitPreview>
 
           <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Personlig side">
-            WIP personlig CV-side og portfolio for meg som voksende designer og utvikler.
+            WIP personlig CV-side og portefølje for meg som voksende designer og utvikler.
             Alt arbeid med siden er utført av meg.<br/>
             (Veldig tidlig fase av utvikling, oppdateringer lanseres fortløpende)<br/>
 
