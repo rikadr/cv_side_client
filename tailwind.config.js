@@ -19,6 +19,9 @@ module.exports = {
     extend: {
       width: {
         'card': '1150px',
+        '1500px': '1500',
+        '1200px': '1200px',
+        '1000px': '1000px',
 
       },
       fontSize: {
@@ -99,6 +102,7 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
+
   },
   variants: {
     variants: {

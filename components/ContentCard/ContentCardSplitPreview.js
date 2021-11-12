@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Children } from "react";
 import Image from "next/image";
 import IntersectEnter from "../Intersect/IntersectEnter";
 
-const ContentCardSplitPreview = ({ id, image, alt, q, heading }) => {
+const ContentCardSplitPreview = ({ id, image, alt, q, heading, children}) => {
 
 
 
@@ -31,20 +31,14 @@ const ContentCardSplitPreview = ({ id, image, alt, q, heading }) => {
           <div className="p-5 text-black ">
             {/* Innhold */}
             <h1 className="font-titleItal text-g">{heading}</h1>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-            <br />
+            {children}
+            {/*<br />
             <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
               Preview
             </button> &nbsp;&nbsp;
             <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
               Visit &#10230;
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
