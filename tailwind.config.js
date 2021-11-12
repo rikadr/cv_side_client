@@ -19,9 +19,9 @@ module.exports = {
     extend: {
       width: {
         'card': '1150px',
-        '1500px': '1500',
-        '1200px': '1200px',
-        '1000px': '1000px',
+        '150': '1500px',
+        '120': '120rem',
+        '1000': '1000px',
 
       },
       fontSize: {
