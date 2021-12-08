@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}",
-          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}"],
+          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}", "./components/Tiles/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -22,6 +22,7 @@ module.exports = {
         '150': '1500px',
         '120': '120rem',
         '1000': '1000px',
+        '1200': '1200px',
 
       },
       fontSize: {
