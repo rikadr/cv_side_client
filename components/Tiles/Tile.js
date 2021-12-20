@@ -1,16 +1,20 @@
 import React, { useRef } from "react";
 import IntersectEnter from "../Intersect/IntersectEnter";
 
-const Tile = ({ type, children }) => {
+const Tile = ({heading, children }) => {
+
   
   return (
-    <IntersectEnter>
-      <div className="bg-yellow-400 rounded-xl m-3 p-3 text-black drop-shadow-md">
-          
-        {children}
-      </div>    
-    </IntersectEnter>
+    <div className="my-8 w-full md:w-1/2">
+      <IntersectEnter>
 
+        <div className="w-full text-black drop-shadow-md">
+          <h1 className="font-medium text-s text-center md:text-left font-titleItal"> {heading} </h1>
+          {children}
+        </div>    
+
+      </IntersectEnter>
+    </div>
   );
 };
 

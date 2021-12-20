@@ -10,6 +10,8 @@ import ContentCardSplit from "../components/ContentCard/ContentCardSplit";
 import ContentCardSplitText from "../components/ContentCard/ContentCardSplitText";
 import IntersectEnter from "../components/Intersect/IntersectEnter";
 import Tile from "../components/Tiles/tile";
+import TileAbout from "../components/Tiles/TileAbout";
+import TileAboutYellow from "../components/Tiles/TileAboutYellow";
 
 
 export default function Home() {
@@ -26,32 +28,38 @@ export default function Home() {
 
       <main className="font-bread">
         <SirkelNavn />
-        OBS! Følgende er kun skjermbilder av designet. Implementert design utvikles fortløpende.<br/><br/><br/>
-
-        <div className="m-auto border-2 border-green-100 w-full sm:w-11/12 md:w-full lg:w-10/12 xl:w-8/12 2xl:w-1000">
-          <h1>About Me</h1>
-          <img id="about" src="images/designbig.jpg"/>
+        
+        {/* TILE-FRAME */}
+        <div className="m-auto border-2 border-green-300 w-11/12 sm:w-10/12 md:w-11/12 lg:w-10/12 xl:w-8/12 2xl:w-1000">
+          
+          <Tile heading="About Me" />
+          <Tile>
+            <img id="about" src="images/placeholder/TorsoPortrait.jpg" className="block m-auto w-11/12 rounded-full md:hidden"/>
+            <img id="about" src="images/placeholder/FullBodyPortrait.jpg" className="hidden m-auto w-11/12 rounded-full md:block"/>
+          </Tile>
 
           
           <Tile >
-            Engasjert og motivert IT-student med bakgrunn i grafisk design.
+            <TileAboutYellow>
+              Engasjert og motivert IT-student med bakgrunn i grafisk design.
+            </TileAboutYellow>
           </Tile>
+
           <Tile >
-            <h2>STUDENT</h2>
-            Studerer IT hahahahahahahahahahahaha hahahahahaha hahahahahaha hahahahahaha hahahahahaha
+            <TileAbout heading="STUDENT">
+              <p>Studerer informasjonsteknologi på OsloMet ved siden av diverse nettkurs på front end utvikling. </p>
+              <br/><p>Jeg har også en bachelor som grunnskolelærer i matematikk og naturfag.</p>
+            </TileAbout>
           </Tile>
+
           <Tile >
-            <h2>FRITID</h2>
-            Musikk og bil Musikk og bil Musikk og bil Musikk og bil Musikk og bil Musikk og bil Musikk og bil Musikk og bil
+            <TileAbout heading="FRITID">
+              <p>På siden er jeg aktiv trommeslager i band og musikkprodusent. </p>
+              <br/><p>Jeg har også en bachelor som grunnskolelærer i matematikk og naturfag.</p>
+            </TileAbout>
           </Tile>
           
         </div>
-
-
-
-
-
-
 
         
         <IntersectEnter>
