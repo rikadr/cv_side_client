@@ -1,4 +1,4 @@
-import React, { useRef, Children } from "react";
+import React, { useRef } from "react";
 
 const TileAbout = ({ heading, children }) => {
     return (
