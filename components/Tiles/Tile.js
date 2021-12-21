@@ -5,7 +5,7 @@ const Tile = ({heading, children }) => {
 
   
   return (
-    <div className="my-2 md:my-5 w-full border-2 border-green-400">
+    <div className="my-2 md:my-5 w-full ">
       <IntersectEnter>
           {children}
       </IntersectEnter>

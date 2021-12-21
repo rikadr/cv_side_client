@@ -30,8 +30,8 @@ export default function Home() {
       <main className="font-bread">
         <SirkelNavn />
         
-        <div id="about" className="flex flex-wrap flex-row justify-center m-auto w830:w-830 border-2 border-blue-400">
-          <div className="aboutFlexbox md:w-6/12 border-2 border-red-400 hidden md:block">
+        <div id="about" className="flex flex-wrap flex-row justify-center m-auto w830:w-830 ">
+          <div className="aboutFlexbox md:w-6/12  hidden md:block">
             <Tile >
                 <img id="about" src="images/placeholder/FullBodyPortrait.jpg" className="hidden m-auto  max-w-5 rounded-full md:block"/>
             </Tile>
@@ -40,7 +40,7 @@ export default function Home() {
           {/* TILE-FRAME */}  
           {/* className="flex flex-wrap flex-col justify-between m-auto border-2 border-green-300 w-11/12 sm:w-10/12 md:w-11/12 lg:w-10/12 xl:w-8/12 2xl:w-1000" */}
 
-          <div className="aboutFlexbox flex flex-wrap flex-col w-10/12  md:w-6/12 border-2 border-yellow-400">  
+          <div className="aboutFlexbox flex flex-wrap flex-col w-10/12  md:w-6/12 ">  
           <TileHeading>
               About Me
             </TileHeading>
