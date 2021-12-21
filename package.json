@@ -1,9 +1,11 @@
 {
   "private": true,
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start"   
+   
   },
   "dependencies": {
     "intersection-observer": "^0.12.0",
