@@ -25,7 +25,7 @@ export default function Home() {
       <main className="font-bread">
         <SirkelNavn />
         
-        OBS! Følgende er kun skjermbilder av designet. Implementert design utvikles fortløpende.<br/><br/><br/>
+        OBS! Nå har jeg revertert til tidligere versjon.<br/><br/><br/>
 
         <IntersectEnter>
         <img id="about" src="images/placeholder/About mobile.jpg"  className="visible relative m-auto w-full sm:w-11/12 md:invisible md:absolute "/>
