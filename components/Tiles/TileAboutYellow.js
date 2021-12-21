@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, Children } from "react";
 
 const TileAboutYellow = ({ children }) => {
     return (

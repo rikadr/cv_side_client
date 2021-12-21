@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, Children } from "react";
 import IntersectEnter from "../Intersect/IntersectEnter";
 
 const Tile = ({heading, children }) => {
