@@ -41,10 +41,12 @@ export default function Home() {
           {/* className="flex flex-wrap flex-col justify-between m-auto border-2 border-green-300 w-11/12 sm:w-10/12 md:w-11/12 lg:w-10/12 xl:w-8/12 2xl:w-1000" */}
 
           <div className="aboutFlexbox flex flex-wrap flex-col w-10/12  md:w-6/12 ">  
-          <TileHeading>
-              About Me
+          <Tile>
+            <TileHeading>
+                About Me
             </TileHeading>
-              
+          </Tile>    
+          
             <Tile >
               <img id="about" src="images/placeholder/TorsoPortrait.jpg" className="block md:hidden m-auto w-11/12 rounded-full "/>
             </Tile>
@@ -57,7 +59,7 @@ export default function Home() {
 
             <Tile >
               <TileAbout heading="STUDENT">
-                <p>Studerer informasjonsteknologi (Bachelor) på OsloMet ved siden av diverse nettkurs på front end utvikling. </p>
+                <p>Studerer <a className="underline hover:text-yellow-400" href="https://www.oslomet.no/studier/tkd/informasjonsteknologi" target="_blank">informasjonsteknologi</a> bachelor på OsloMet ved siden av diverse nettkurs på front end utvikling. </p>
                 <br/><p>Jeg har også en bachelor som grunnskolelærer i matematikk og naturfag.</p>
               </TileAbout>
             </Tile>
