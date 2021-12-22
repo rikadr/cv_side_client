@@ -14,6 +14,8 @@ import TileAboutYellow from "../components/Tiles/TileAboutYellow";
 import TileHeading from "../components/Tiles/TileHeading";
 import SkillsHeading from "../components/Tiles/Skills/SkillHeading";
 import SkillItem from "../components/Tiles/Skills/SkillItem";
+import SkillCol from "../components/Tiles/Skills/SkillCol";
+import SkillGroup from "../components/Tiles/Skills/SkillGroup";
 
 export default function Home() {
   return (
@@ -121,59 +123,24 @@ export default function Home() {
         {/**/}
         {/*Skills MockUp*/}
         <div className="w1500:w-150 m-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 bg-red-500">
-            <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 ">
+            
+            <SkillGroup>
+              <SkillCol>
                 <SkillsHeading >Design</SkillsHeading>
-
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-
-              </div>
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-              </div>
-            </div>
-            <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <SkillsHeading >Front end</SkillsHeading>
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-              </div>
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-              </div>
-            </div>
-            <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <SkillsHeading >Other</SkillsHeading>
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-              </div>
-              <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <SkillItem type="Illustrator" padding="3" />
-                <SkillItem type="Illustrator" padding="3" />
-              </div>
-            </div>
+                <SkillItem type="Illustrator" imgURL="Illustrator" imgSize="36" padding="5" />
+              </SkillCol>
+              <SkillCol>
+                <SkillItem type="Photoshop" imgURL="Photoshop" imgSize="28" padding="1" />
+                <SkillItem type="Figma" imgURL="Figma" imgSize="10" padding="0" />
+              </SkillCol>
+            </SkillGroup>
           </div>
         </div>
 
 
-        <IntersectEnter>
-          <img
-            id="skills"
-            src="images/placeholder/Skills mobile.jpg"
-            className="visible relative m-auto w-full sm:w-11/12 md:invisible md:absolute "
-          />
-        </IntersectEnter>
-        <IntersectEnter>
-          <img
-            src="images/placeholder/Skills desktop.jpg"
-            className="invisible absolute m-auto w-full md:visible md:relative lg:w-10/12 xl:w-8/12 2xl:w-1000"
-          />
-        </IntersectEnter>
+        
+
       </main>
     </div>
   );

@@ -1,16 +1,19 @@
 import React, { useRef, Children } from "react";
 import IntersectEnter from "../../Intersect/IntersectEnter";
 
-const SkillItem = ({ type, padding }) => {
+const SkillItem = ({ type, imgURL, imgSize, padding }) => {
+
+  
+
   return (
     <div className="h-48">
       <IntersectEnter>
-        <div className="h-full text-c text-center bg-white rounded-3xl drop-shadow-lg p-3 ">
-          <div className={`h-36 w-36 m-auto p-${padding}`}>
-            <img src={`images/skillLogos/${type}.png`}
-                className="" />
-          </div>
-          {type}
+        <div className="h-full text-c text-center bg-white rounded-3xl drop-shadow-lg p-2 ">
+          <div className={`m-auto p-${padding} border-2 border-red-500`}>
+          
+              <img src={`images/skillLogos/${imgURL}.png`} className={`w-${imgSize} m-auto `} /></div>
+              {type}
+           
         </div>
       </IntersectEnter>
     </div>
