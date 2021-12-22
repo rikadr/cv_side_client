@@ -12,6 +12,8 @@ import Tile from "../components/Tiles/Tile";
 import TileAbout from "../components/Tiles/TileAbout";
 import TileAboutYellow from "../components/Tiles/TileAboutYellow";
 import TileHeading from "../components/Tiles/TileHeading";
+import SkillsHeading from "../components/Tiles/Skills/SkillHeading";
+import SkillItem from "../components/Tiles/Skills/SkillItem";
 
 export default function Home() {
   return (
@@ -43,7 +45,7 @@ export default function Home() {
               <img
                 id="about"
                 src="images/placeholder/FullBodyPortrait.jpg"
-                className="hidden m-auto  max-w-5 rounded-full md:block"
+                className="hidden m-auto  max-w-5 rounded-full drop-shadow-lg md:block"
               />
             </Tile>
           </div>
@@ -60,7 +62,7 @@ export default function Home() {
               <img
                 id="about"
                 src="images/placeholder/TorsoPortrait.jpg"
-                className="block md:hidden m-auto w-11/12 rounded-full "
+                className="block md:hidden m-auto w-11/12 rounded-full drop-shadow-lg"
               />
             </Tile>
 
@@ -122,59 +124,37 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 bg-red-500">
             <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-24 bg-yellow-400">Heading 1</div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 1
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 2
-                </div>
+                <SkillsHeading >Design</SkillsHeading>
+
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
+
               </div>
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 3
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 4
-                </div>
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
               </div>
             </div>
             <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-24 bg-yellow-400">Heading 2</div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 1
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 2
-                </div>
+                <SkillsHeading >Front end</SkillsHeading>
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
               </div>
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 3
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 4
-                </div>
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
               </div>
             </div>
             <div className="flex flex-row gap-5 justify-center bg-gray-200 border-2 border-blue-600">
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-24 bg-yellow-400">Heading 3</div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 1
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 2
-                </div>
+                <SkillsHeading >Other</SkillsHeading>
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
               </div>
               <div className="flex flex-col gap-5 w-48 bg-gray-400">
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 3
-                </div>
-                <div className="h-48 bg-gradient-to-r from-white to-blue-500 ">
-                  Skill 4
-                </div>
+                <SkillItem type="Illustrator" padding="3" />
+                <SkillItem type="Illustrator" padding="3" />
               </div>
             </div>
           </div>
