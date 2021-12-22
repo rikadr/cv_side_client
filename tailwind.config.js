@@ -20,6 +20,7 @@ module.exports = {
       screens: {
         'w500': '500px',
         'w830': '830px',
+        'w1500': '1500px',
       },
       width: {
         'card': '1150px',
