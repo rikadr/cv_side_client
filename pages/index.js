@@ -14,6 +14,7 @@ import TileAboutYellow from "../components/Tiles/TileAboutYellow";
 import TileHeading from "../components/Tiles/TileHeading";
 import SkillsHeading from "../components/Tiles/Skills/SkillHeading";
 import SkillItem from "../components/Tiles/Skills/SkillItem";
+import SkillItem2Lines from "../components/Tiles/Skills/SkillItem2Lines";
 import SkillCol from "../components/Tiles/Skills/SkillCol";
 import SkillGroup from "../components/Tiles/Skills/SkillGroup";
 
@@ -33,14 +34,11 @@ export default function Home() {
 
       <main className="font-bread">
         <SirkelNavn />
-        OBS! Nå har jeg revertert til tidligere versjon.
-        <br />
-        Lagt til Tile componenter
         <br />
         <br />
         <div
           id="about"
-          className="flex flex-wrap flex-row justify-center m-auto w830:w-830 border-2 border-blue-600"
+          className="flex flex-wrap flex-row justify-center m-auto w830:w-830"
         >
           <div className="aboutFlexbox md:w-6/12  hidden md:block">
             <Tile>
@@ -110,38 +108,52 @@ export default function Home() {
             </Tile>
           </div>
         </div>
-        {/*
-        <IntersectEnter>
-        <img id="about" src="images/placeholder/About mobile.jpg"  className="visible relative m-auto w-full sm:w-11/12 md:invisible md:absolute "/>
-        </IntersectEnter>
-        <IntersectEnter>
-        <img src="images/placeholder/About desktop.jpg"  className="invisible absolute m-auto w-full md:visible md:relative lg:w-10/12 xl:w-8/12 2xl:w-1000"/>
-        </IntersectEnter>
-        */}
 
-        <br/><br/><br/><br/><br/><br/><br/>
         {/**/}
         {/*Skills MockUp*/}
-        <div className="w1500:w-150 m-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-y-10 ">
-            
-            <SkillGroup>
-              <SkillCol>
-                <SkillsHeading >Design</SkillsHeading>
-                <SkillItem type="Illustrator" imgURL="Illustrator" imgSize="36" padding="5" />
-              </SkillCol>
-              <SkillCol>
-                <SkillItem type="Photoshop" imgURL="Photoshop" imgSize="28" padding="1" />
-                <SkillItem type="Figma" imgURL="Figma" imgSize="10" padding="0" />
-              </SkillCol>
-            </SkillGroup>
-          </div>
+        <br/><br/><br/><br/>
+        <div id="skills" className="my-5 w-full  text-black drop-shadow-lg">
+          <h1 className="font-medium text-o sm:text-s text-center font-titleItal"> Skills </h1>
         </div>
-
-
+        <br/><br/>
         
+        <div  className="w1300:w-130 m-auto grid grid-cols-1 lg:grid-cols-2 gap-y-20">
+          <SkillGroup>
+            <SkillCol>
+              <SkillsHeading>Design</SkillsHeading>
+              <SkillItem type="Illustrator" imgURL="Illustrator" padding="5" />
+            </SkillCol>
+            <SkillCol>
+              <SkillItem type="Photoshop" imgURL="Photoshop" padding="5" />
+              <SkillItem type="Figma" imgURL="Figma" padding="5" />
+            </SkillCol>
+          </SkillGroup>
 
-      </main>
+          <SkillGroup>
+            <SkillCol>
+              <SkillsHeading>Front End</SkillsHeading>
+              <SkillItem type="Next.js" imgURL="Next" padding="5" />
+              <SkillItem2Lines type="HTML, CSS, JavaScript" imgURL="HTMLCSSJS" padding="0"/>
+            </SkillCol>
+            <SkillCol>
+              <SkillItem type="React" imgURL="React" padding="5" />
+              <SkillItem type="Tailwind CSS" imgURL="Tailwind" padding="5" />
+            </SkillCol>
+          </SkillGroup>
+
+          <SkillGroup>
+            <SkillCol>
+              <SkillsHeading>Other</SkillsHeading>
+              <SkillItem type="MySQL" imgURL="MySQL" padding="5" />
+            </SkillCol>
+            <SkillCol>
+              <SkillItem type="Java" imgURL="Java" padding="3" />
+              <SkillItem type="Spring Boot" imgURL="SpringBoot" padding="5" />
+            </SkillCol>
+          </SkillGroup>
+        </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </main>
     </div>
   );
 }
