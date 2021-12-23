@@ -1,7 +1,7 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}",
-          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}", "./components/Tiles/**/*.{js,ts,jsx,tsx}"],
+          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}", "./components/Tiles/**/*.{js,ts,jsx,tsx}", "./components/Tiles/Skills/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -20,10 +20,12 @@ module.exports = {
       screens: {
         'w500': '500px',
         'w830': '830px',
+        'w1300': '1300px',
       },
       width: {
         'card': '1150px',
         '150': '1500px',
+        '130': '1300px',
         '120': '120rem',
         '830': '830px',
         '1000': '1000px',
