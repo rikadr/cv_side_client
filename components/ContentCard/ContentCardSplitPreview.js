@@ -28,9 +28,9 @@ const ContentCardSplitPreview = ({ id, image, alt, q, heading, children}) => {
         {/* Innhold-boks */}
         <div className="bg-white w-full lg:h-80 lg:w-1/2 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg drop-shadow-lg border-0 border-blue-600">
           {/* Innhold */}
-          <div className="p-5 text-black ">
+          <div className="p-5 text-black">
             
-            <h1 className="font-titleItal text-g">{heading}</h1>
+            <h1 className="text-f">{heading}</h1>
             {children}
             
           </div>
