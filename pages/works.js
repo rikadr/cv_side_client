@@ -14,7 +14,7 @@ export default function Works() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Head>
-        <title>Works 2.0</title>
+        <title>Works</title>
       </Head>
       {/*<BGBox />*/}
       
