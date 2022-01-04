@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const NavHomePlayground = () => {
   return (
-    <div className="w-80 h-[9rem] md:w-[15rem] md:h-[14.5rem] font-titleItal text-e sm:text-g">
+    <div className="w-80 h-[9rem] md:w-[15rem] md:h-[14.5rem] mt-5 font-titleItal text-e sm:text-g">
       <Link href="/">
         <a className="absolute pl-[6.3rem] pt-6 sm:pt-3 md:pt-24 md:pl-3 ">
             <div

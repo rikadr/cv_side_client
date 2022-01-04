@@ -12,7 +12,7 @@ import ButtonArrayButtonPreviewModal from "../components/ContentCard/ButtonArray
 
 export default function Works() {
   return (
-    <>
+    <div className="min-h-screen bg-gray-100">
       <Head>
         <title>Works 2.0</title>
       </Head>
@@ -20,7 +20,7 @@ export default function Works() {
       
 
       <main className="">
-        <div className="max-w-lg m-auto mt-5  grid grid-cols-1 md:grid-cols-2 justify-items-center">
+        <div className="max-w-lg m-auto  grid grid-cols-1 md:grid-cols-2 justify-items-center">
           <NavHomePlayground />
           <h1 className="w-48 h-32 pt-3 font-titleItal text-q stroke-current stroke-1 mt-0 md:mt-10">Works</h1>
         </div>
@@ -39,16 +39,14 @@ export default function Works() {
           
           <ButtonArrayContainer>
             <ButtonArrayButton              text="Visit"  url="https://www.gitta.no/" />
-            <ButtonArrayButton              text="Preview" url="" />
             <ButtonArrayButton              text="Design" url="https://drive.google.com/file/d/1NYVpMH6QACpK-FMMgqksFYujQ2A_WzBG/view?usp=sharing" />
           </ButtonArrayContainer>
-          
 
         </ContentCardSplitPreview>
 
 
         
       </main>
-    </>
+    </div>
   );
 }
