@@ -1,7 +1,8 @@
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}", "./components/BG/**/*.{js,ts,jsx,tsx}", "./components/SirkelNavn/**/*.{js,ts,jsx,tsx}",
-          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}", "./components/Tiles/**/*.{js,ts,jsx,tsx}", "./components/Tiles/Skills/**/*.{js,ts,jsx,tsx}"],
+          "./components/ContentCard/**/*.{js,ts,jsx,tsx}", "./components/Intersect/**/*.{js,ts,jsx,tsx}", "./components/Tiles/**/*.{js,ts,jsx,tsx}", 
+          "./components/Tiles/Skills/**/*.{js,ts,jsx,tsx}", "./components/ContentCard/ButtonArray/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
@@ -18,6 +19,7 @@ module.exports = {
 
     extend: {
       screens: {
+        'w370': '370px',
         'w500': '500px',
         'w830': '830px',
         'w1300': '1300px',
