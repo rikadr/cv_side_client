@@ -8,7 +8,7 @@ const NavHomePlayground = () => {
       <Link href="/">
         <a className="absolute pl-[6.3rem] pt-6 sm:pt-3 md:pt-24 md:pl-3 ">
             <div
-            className="w-48 h-24 sm:w-52 sm:h-28 text-white bg-blue-500 hover:bg-blue-600 rounded-full grid content-center justify-center drop-shadow-xl">
+            className="w-48 h-24 sm:w-52 sm:h-28 text-white bg-blue-400 hover:bg-blue-500 rounded-full grid content-center justify-center drop-shadow-xl">
             Playground
             </div>
         </a>

@@ -32,31 +32,7 @@ const ContentCardSplitPreview = ({ id, image, alt, q, heading, children}) => {
             
             <h1 className="font-titleItal text-g">{heading}</h1>
             {children}
-
-            <Link href="https://www.gitta.no/" passHref>
-              <a target="_blank">
-                <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
-                  Visit page
-                </button>
-              </a>
-            </Link> 
-            &nbsp;&nbsp;
-            <Link href="https://drive.google.com/file/d/1NYVpMH6QACpK-FMMgqksFYujQ2A_WzBG/view?usp=sharing">
-              <a target="_blank">
-                <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
-                  Design
-                </button>
-              </a>
-            </Link>
-
-            {/*<br />
-            <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
-              Preview
-            </button> &nbsp;&nbsp;
-            <button className="relative transition duration-200 bg-yellow-500 hover:bg-green-400 active:bg-green-700 text-white text-b font-bold px-3 py-1 my-4 rounded-lg ">
-              Visit &#10230;
-            </button>*/}
-
+            
           </div>
         </div>
       </div>

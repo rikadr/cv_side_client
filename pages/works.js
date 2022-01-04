@@ -5,6 +5,9 @@ import Link from "next/link";
 import BGBox from "../components/BG/BGBox";
 import ContentCardSplitPreview from "../components/ContentCard/ContentCardSplitPreview";
 import NavHomePlayground from "../components/Nav/NavHomePlayground";
+import ButtonArrayContainer from "../components/ContentCard/ButtonArray/ButtonArrayContainer";
+import ButtonArrayButton from "../components/ContentCard/ButtonArray/ButtonArrayButton";
+import ButtonArrayButtonPreviewModal from "../components/ContentCard/ButtonArray/ButtonArrayButtonPreviewModal";
 
 
 export default function Works() {
@@ -19,7 +22,7 @@ export default function Works() {
       <main className="">
         <div className="max-w-lg m-auto mt-5  grid grid-cols-1 md:grid-cols-2 justify-items-center">
           <NavHomePlayground />
-          <h1 className="w-48 h-32 pt-3 font-titleItal text-q  mt-0 md:mt-10">Works</h1>
+          <h1 className="w-48 h-32 pt-3 font-titleItal text-q stroke-current stroke-1 mt-0 md:mt-10">Works</h1>
         </div>
 
         
@@ -31,16 +34,15 @@ export default function Works() {
           <br/>
           <p> Min rolle i prosjektet: Design og grafikk. <br/>
           (Oppdatert design til forside, klikk "Designs")</p>
-
-          {/*
+          <br/>
+          
           
           <ButtonArrayContainer>
-            <ButtonArrayButton              text="Visit"  url="">
-            <ButtonArrayButton              text="Design" url="">
-            <ButtonArrayButtonPreviewModal                url="">
+            <ButtonArrayButton              text="Visit"  url="https://www.gitta.no/" />
+            <ButtonArrayButton              text="Preview" url="" />
+            <ButtonArrayButton              text="Design" url="https://drive.google.com/file/d/1NYVpMH6QACpK-FMMgqksFYujQ2A_WzBG/view?usp=sharing" />
           </ButtonArrayContainer>
           
-          */}
 
         </ContentCardSplitPreview>
 
