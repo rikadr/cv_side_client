@@ -17,11 +17,13 @@ export default function Works() {
       
 
       <main className="">
-        <NavHomePlayground />
-
+        <div className="max-w-lg m-auto mt-5  grid grid-cols-1 md:grid-cols-2 justify-items-center">
+          <NavHomePlayground />
+          <h1 className="w-48 h-32 pt-3 font-titleItal text-q  mt-0 md:mt-10">Works</h1>
+        </div>
 
         
-        <h1 className="font-titleItal text-o">Works 2.0</h1>
+        
 
         <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Aqua-Tech nettsted">
           <p> WIP nettside utvikles utenom studiet med to medstudenter (Fredrik og Peder).
