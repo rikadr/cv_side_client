@@ -5,7 +5,7 @@ import Link from "next/link";
 const NavHomePlayground = () => {
   return (
     <div className="w-80 h-[9rem] md:w-[15rem] md:h-[14.5rem] mt-5 font-titleItal text-e sm:text-g">
-      <Link href="/">
+      <Link href="/404">
         <a className="absolute pl-[6.3rem] pt-6 sm:pt-3 md:pt-24 md:pl-3 ">
             <div
             className="w-48 h-24 sm:w-52 sm:h-28 text-white bg-blue-400 hover:bg-blue-500 rounded-full grid content-center justify-center drop-shadow-xl">
