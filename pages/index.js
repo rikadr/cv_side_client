@@ -23,7 +23,7 @@ export default function Home() {
     <div className="bg-gray-100">
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
-        <title>Rikard Dotzler Portfolio</title>
+        <title>Update 01 - Rikard Dotzler Portfolio</title>
         <meta
           name="description"
           content="Portfolio page for Rikard Noer Dotzler"
