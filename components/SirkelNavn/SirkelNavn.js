@@ -1,7 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import SjekkMegUt from "./SjekkMegUt";
-
+import Link from "next/link";
 
 const SirkelNavn = () => {
 
@@ -12,25 +11,46 @@ const SirkelNavn = () => {
     }
     return (
       <div onMouseEnter={toggle} onMouseLeave={toggle}>
-        <h1 className={`font-titleItal text-p sm:text-u leading-11 sm:leading-12 ${visible ? 'text-white drop-shadow-lg' : ''}`}>{visible ? tekst2 : tekst1}</h1>
+        <h1 className={`font-titleItal  leading-12 ${visible ? 'text-white text-r drop-shadow-lg' : 'animate-pulse text-t'}`}>{visible ? tekst2 : tekst1}</h1>
       </div>
     )
   }
 
   return (
-    <div className="relative z-40 flex flex-col items-center justify-center h-screen py-2">
-      
-      <div className="w-72 h-mtall sm:w-96 sm:h-tall mb-16">
-        <div className="transition duration-300 ease-in-out bg-yellow-400 hover:bg-yellow-500 drop-shadow-lg rounded-full h-full w-full 
-        border-2">
-          <div className="my-14 sm:my-20 mx-8 sm:mx-12">
+    <div className="relative h-screen">
+    
+          <div className="
+          flex flex-col justify-center 
+          w-[22rem] h-[25rem] p-10 rounded-full 
+          bg-gradient-to-br from-indigo-500/70 to-pink-600/80 backdrop-blur-sm drop-shadow-lg border-red-500 border-0">
             <Ord tekst1="Rikard" tekst2="Designer"/>
             <Ord tekst1="Noer" tekst2="Web"/>
             <Ord tekst1="Dotzler" tekst2="Developer"/>
-                <SjekkMegUt />
           </div>
-        </div>
-      </div>
+
+          <Link href="/#about">
+            <a className="
+            w-32 h-32 p-7 rounded-full
+            text-d leading-[1.5rem] hover:text-white hover:font-semibold hover:animate-pulse
+            bg-gradient-to-br from-yellow-300/60 to-amber-600/70 backdrop-blur-sm drop-shadow-lg">
+              &#10549; About
+            </a>
+          </Link>
+          
+          <div className="
+          w-32 h-32 p-7 rounded-full
+          text-d leading-[1.5rem]
+          bg-gradient-to-br from-green-300/60 to-green-700/70 backdrop-blur-sm drop-shadow-lg">
+            &#10549; Skills
+          </div>
+
+          <div className="
+          w-32 h-32 px-6 pt-12 rounded-full
+          text-d leading-[1.5rem]
+          bg-gradient-to-br from-red-300/60 to-pink-700/70 backdrop-blur-sm drop-shadow-lg">
+            Works
+          </div>
+
       <div className="absolute bottom-20">
         Scroll
       </div>
