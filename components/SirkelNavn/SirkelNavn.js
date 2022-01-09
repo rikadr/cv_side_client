@@ -19,14 +19,14 @@ const SirkelNavn = () => {
 
   const Boble = ({tekst, bg1, bg2, url}) => {
     return (
-      <div className="w-min border-0 border-red-600 rounded-full"><IntersectEnter><Link href={`${url}`}>
+      <div className="w-min border-0 border-red-600 rounded-full"><Link href={`${url}`}>
         <a><div className={`
         w-28 sm:w-32 h-28 sm:h-32 flex justify-center rounded-full 
         font-titleItal text-e sm:text-g hover:text-white hover:font-semibold
         bg-gradient-to-br ${bg1} ${bg2} hover:to-yellow-400/80 backdrop-filter backdrop-blur-sm drop-shadow-lg`}>
             <div className="w-min m-auto">{tekst}</div>
           </div></a>
-      </Link></IntersectEnter></div>
+      </Link></div>
     )
   }
 
