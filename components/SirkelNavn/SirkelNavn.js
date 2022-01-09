@@ -43,6 +43,21 @@ const SirkelNavn = () => {
         </div>
 
         <div className="w-[15rem] h-[29rem] m-auto pl-[2rem] border-0 border-blue-600">
+
+          <div className="absolute ml-[1rem] ">
+            <Boble tekst="About" bg1="from-lime-300/50 text-white" bg2="to-cyan-600/80 animate-float1"  url="/#about" />
+          </div>
+
+          <div className="absolute mt-[3.5rem] sm:mt-[4rem] ml-[5rem] ">
+            <Boble tekst="Skills" bg1="from-green-300/40 text-white" bg2="to-sky-500/80 animate-float1 animation-delay-1"  url="/#skills" />
+          </div>
+
+          <div className="absolute mt-[8.5rem] sm:mt-[9.5rem] ml-[1rem] sm:ml-[0rem] ">
+            <Boble tekst="Works" bg1="from-violet-300/50 text-white" bg2="to-rose-500/80 animate-float2"  url="/works" />
+          </div>
+
+          <div className="absolute mt-[14rem] sm:mt-[16rem] ml-[3rem] sm:ml-[3rem] ">
+            <Boble tekst="Contact" bg1="from-red-500/30" bg2="to-blue-200/80 animate-float1 animation-delay-2"  url="/404" />
           </div>
 
         </div>
