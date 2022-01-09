@@ -23,7 +23,7 @@ const SirkelNavn = () => {
         <a><div className={`
         w-${wh} h-${wh} flex justify-center rounded-full 
         transform duration-150 text-d hover:text-white hover:font-semibold
-        hover:animate-pulse bg-gradient-to-br ${bg1} ${bg2} backdrop-blur-sm drop-shadow-lg`}>
+        hover:animate-pulse bg-gradient-to-br to-${bg1} from-${bg2} backdrop-blur-sm drop-shadow-lg`}>
             <div className="w-min m-auto">{tekst}</div>
           </div></a>
       </Link></IntersectEnter></div>
@@ -42,7 +42,7 @@ const SirkelNavn = () => {
             <Ord tekst1="Dotzler" tekst2="Developer"/>
           </div>
 
-          <Boble tekst="About" wh="32" bg1="to-pink-300/60" bg2="from-blue-500/80"  url="/#about" />
+          <Boble tekst="About" wh="32" bg1="pink-300/60" bg2="blue-500/80"  url="/#about" />
           
 
       <div className="absolute bottom-20">
