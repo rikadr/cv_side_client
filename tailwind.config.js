@@ -76,6 +76,8 @@ module.exports = {
         fadeIn: "fadeIn 0.7s ease-in-out forwards",
         enter: "enter 0.4s ease-in-out forwards",
         exit: "exit 0.3s ease-in-out forwards",
+        float1: "float1 15s ease-in-out infinite",
+        float2: "float1 17s ease-in-out infinite",
       },
       keyframes: {
         beat: {
@@ -103,6 +105,18 @@ module.exports = {
         exit: {
           "0%": { transform: "rotatex(0deg)" },
           "100%": { transform: "rotatex(90deg)" },
+        },
+        float1: {
+          "0%": { transform: "translateY(0%) translateX(0%) scale(100%)", backdropFilter: "blur(3px)" },
+          "40%": { transform: "translateY(-5%) translateX(-15%) scale(95%)" },
+          "70%": { transform: "translateY(15%) translateX(-10%) scale(102%)" },
+          "100%": { transform: "translateY(0%) translateX(0%) scale(100%)", backdropFilter: "blur(3px)" },
+        },
+        float2: {
+          "0%": { transform: "translateY(0%) translateX(0%) scale(100%)", backdropFilter: "blur(3px)" },
+          "33%": { transform: "translateY(-5%) translateX(15%) scale(104%)" },
+          "66%": { transform: "translateY(15%) translateX(10%) scale(96%)" },
+          "100%": { transform: "translateY(0%) translateX(0%) scale(100%)", backdropFilter: "blur(3px)" },
         },
       },
     },
