@@ -17,13 +17,13 @@ const SirkelNavn = () => {
     )
   }
 
-  const Boble = ({tekst, Bg, url}) => {
+  const Boble = ({tekst, wh, bg1, bg2, url}) => {
     return (
       <div className="w-min"><IntersectEnter><Link href={`${url}`}>
         <a><div className={`
-        w-32 h-32 flex justify-center rounded-full 
+        w-${wh} h-${wh} flex justify-center rounded-full 
         transform duration-150 text-d hover:text-white hover:font-semibold
-        hover:animate-pulse bg-gradient-to-br ${prop1} ${prop2} backdrop-blur-sm drop-shadow-lg`}>
+        hover:animate-pulse bg-gradient-to-br ${bg1} ${bg2} backdrop-blur-sm drop-shadow-lg`}>
             <div className="w-min m-auto">{tekst}</div>
           </div></a>
       </Link></IntersectEnter></div>
@@ -35,18 +35,15 @@ const SirkelNavn = () => {
     
           <div className="
           flex flex-col justify-center 
-          w-min text-t
+          w-min text-t 
            border-red-500 border-2">
             <Ord tekst1="Rikard" tekst2="Designer"/>
             <Ord tekst1="Noer" tekst2="Web"/>
             <Ord tekst1="Dotzler" tekst2="Developer"/>
           </div>
 
-          <Boble tekst="About" Bg="from-pink-300/70 to-blue-500/90"  url="/#about" />
-          <Boble tekst="Skills" Bg="from-lime-300/70 to-emerald-500/90"  url="/#skills" />
-          <Boble tekst="Works" Bg="from-teal-300/70 to-emerald-500/90"  url="/works" />
-          <Boble tekst="Works" Bg="from-teal-300/70 to-emerald-500/90"  url="/works" />
-          <Boble tekst="Contact" Bg="from-orange-300/70 to-red-500/90"  url="/404" />
+          <Boble tekst="About" wh="32" bg1="to-pink-300/60" bg2="from-blue-500/80"  url="/#about" />
+          
 
       <div className="absolute bottom-20">
         Scroll
