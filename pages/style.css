@@ -12,6 +12,20 @@
 
 }
 
+@layer utilities {
+    .animation-delay-1 {
+        animation-delay: 1s;
+    }
+    
+    .animation-delay-2 {
+        animation-delay: 2s;
+    }
+
+    .animation-delay-3 {
+        animation-delay: 3s;
+    }
+}
+
 .BGBox {
     position: absolute;
     width: 100%;
@@ -47,5 +61,7 @@
 .aboutFlexbox {
     padding: 0rem 1rem;
 }
+
+
 
 

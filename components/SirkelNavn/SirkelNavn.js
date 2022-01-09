@@ -12,18 +12,18 @@ const SirkelNavn = () => {
     }
     return (
       <div onMouseEnter={toggle} onMouseLeave={toggle}>
-        <h1 className={`font-titleItal leading-12 ${visible ? 'text-white animate-pulse drop-shadow-lg' : ''}`}>{visible ? tekst2 : tekst1}</h1>
+        <h1 className={`font-titleItal  ${visible ? 'text-white animate-pulse drop-shadow-lg' : ''}`}>{visible ? tekst2 : tekst1}</h1>
       </div>
     )
   }
 
-  const Boble = ({tekst, wh, bg1, bg2, url}) => {
+  const Boble = ({tekst, bg1, bg2, url}) => {
     return (
-      <div className="w-min"><IntersectEnter><Link href={`${url}`}>
+      <div className="w-min border-0 border-red-600 rounded-full"><IntersectEnter><Link href={`${url}`}>
         <a><div className={`
-        w-${wh} h-${wh} flex justify-center rounded-full 
-        transform duration-150 text-d hover:text-white hover:font-semibold
-        hover:animate-pulse bg-gradient-to-br to-${bg1} from-${bg2} backdrop-blur-sm drop-shadow-lg`}>
+        w-28 sm:w-32 h-28 sm:h-32 flex justify-center rounded-full 
+        font-titleItal text-e sm:text-g hover:text-white hover:font-semibold
+        bg-gradient-to-br ${bg1} ${bg2} hover:to-yellow-400/80 backdrop-filter backdrop-blur-sm drop-shadow-lg`}>
             <div className="w-min m-auto">{tekst}</div>
           </div></a>
       </Link></IntersectEnter></div>
@@ -31,22 +31,25 @@ const SirkelNavn = () => {
   }
 
   return (
-    <div className="relative h-screen">
-    
-          <div className="
-          flex flex-col justify-center 
-          w-min text-t 
-           border-red-500 border-2">
-            <Ord tekst1="Rikard" tekst2="Designer"/>
-            <Ord tekst1="Noer" tekst2="Web"/>
-            <Ord tekst1="Dotzler" tekst2="Developer"/>
+    <div className="relative h-screen ">
+      <div className="w-full md:w-[37rem] lg:w-7/12 w1300:w-830 h-min md:h-5/6 m-auto border-violet-500 border-0 
+                    grid grid-cols-1 md:grid-cols-2 items-center">  
+
+        <div className="w-64 h-min text-s md:text-x leading-[4.5rem] md:leading-[6rem] m-auto md:m-0 pl-5 py-5 md:py-0 order-0 md:order-1
+          border-red-500 border-0">
+          <Ord tekst1="Rikard" tekst2="Designer"/>
+          <Ord tekst1="Noer" tekst2="Web"/>
+          <Ord tekst1="Dotzler" tekst2="Developer"/>
+        </div>
+
+        <div className="w-[15rem] h-[29rem] m-auto pl-[2rem] border-0 border-blue-600">
           </div>
 
-          <Boble tekst="About" wh="32" bg1="pink-300/60" bg2="blue-500/80"  url="/#about" />
-          
+        </div>
+      </div>          
 
-      <div className="absolute bottom-20">
-        Scroll
+      <div className="absolute bottom-20 w-full">
+        <div className="w-min m-auto">Scroll</div>
       </div>
     </div>
   );
