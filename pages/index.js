@@ -101,8 +101,7 @@ export default function Home() {
                 </p>
                 <br />
                 <p>
-                  Jeg har også en bachelor som grunnskolelærer i matematikk og
-                  naturfag.
+                  Lidenskapelig interessert i entusiast-biler og er min egen hobbymekaniker
                 </p>
               </TileAbout>
             </Tile>

@@ -78,6 +78,7 @@ module.exports = {
         exit: "exit 0.3s ease-in-out forwards",
         float1: "float1 15s ease-in-out infinite",
         float2: "float1 17s ease-in-out infinite",
+        shake: "shake 0.1s ease-in-out forwards",
       },
       keyframes: {
         beat: {
@@ -117,6 +118,12 @@ module.exports = {
           "33%": { transform: "translateY(-5%) translateX(15%) scale(104%)" },
           "66%": { transform: "translateY(15%) translateX(10%) scale(96%)" },
           "100%": { transform: "translateY(0%) translateX(0%) scale(100%)", backdropFilter: "blur(3px)" },
+        },
+        shake: {
+          "0%": { transform: "rotatez(0deg)"},
+          "30%": { transform: "rotatez(2deg)" },
+          "70%": { transform: "rotatez(-2deg)" },
+          "100%": { transform: "rotatez(0deg)" },
         },
       },
     },
