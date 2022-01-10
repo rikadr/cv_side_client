@@ -29,7 +29,7 @@ export default function Works() {
         
 
         <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Aqua-Tech nettsted">
-          <p> WIP nettside utvikles utenom studiet med to medstudenter (Fredrik og Peder).
+          <p> WIP nettside utvikles utenom studiet med to medstudenter.
           React front end, nest backend hostet på AWS.</p>
           <br/>
           <p> Min rolle i prosjektet: Design og grafikk. <br/>
@@ -37,7 +37,7 @@ export default function Works() {
           <br/>
           <ButtonArrayContainer>
             <ButtonArrayButton              text="Visit"  url="https://www.gitta.no/" />
-            <ButtonArrayButton              text="Preview"  url="/404" />
+            {/*<ButtonArrayButton              text="Preview"  url="/404" />*/}
             <ButtonArrayButton              text="Design" url="https://drive.google.com/file/d/1NYVpMH6QACpK-FMMgqksFYujQ2A_WzBG/view?usp=sharing" />
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
@@ -50,7 +50,7 @@ export default function Works() {
           <br/>
           <ButtonArrayContainer>
             <ButtonArrayButton              text="Visit"  url="https://fredrikoh92.github.io/Final_Project_18/index.html" />
-            <ButtonArrayButton              text="Preview"  url="/404" />
+            {/*<ButtonArrayButton              text="Preview"  url="/404" />*/}
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
 
@@ -61,7 +61,7 @@ export default function Works() {
           <br/>
           <ButtonArrayContainer>
             <ButtonArrayButton              text="Visit"  url="/" />
-            <ButtonArrayButton              text="Preview"  url="/404" />
+            {/*<ButtonArrayButton              text="Preview"  url="/404" />*/}
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
 
@@ -70,11 +70,12 @@ export default function Works() {
             Mockup designet av meg.</p>
           <br/>
           <ButtonArrayContainer>
-            <ButtonArrayButton              text="Visit"  url="/404" />
-            <ButtonArrayButton              text="Preview"  url="/404" />
+            {/*<ButtonArrayButton              text="Visit"  url="/404" />*/}
+            {/*<ButtonArrayButton              text="Preview"  url="/404" />*/}
             <ButtonArrayButton              text="Design"  url="https://drive.google.com/file/d/1Re_8nvKRIk7JVfv2gQRolrTqanpJOIV1/view?usp=sharing" />
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
+        <div className="h-20"></div>
 
       </main>
     </div>

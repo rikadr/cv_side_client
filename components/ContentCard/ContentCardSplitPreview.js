@@ -14,13 +14,10 @@ const ContentCardSplitPreview = ({ id, image, alt, q, heading, children}) => {
         {/* Bilde-boks */}
         <div className="bg-gray-400 w-full h-56 lg:h-80 lg:w-1/2 rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg drop-shadow-lg border-0 border-green-600">
           {/* Bilde */}
-          <div className="p-5 text-white font-bold">
-            <Image
+          <div className="text-white font-bold">
+            <img
               src={`/images/${image}`}
-              alt={alt}
-              quality={q}
-              layout="fill"
-              className="rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg" 
+              className="w-full max-h-80 object-cover rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg" 
             />
           </div>
         </div>
