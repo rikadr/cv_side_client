@@ -20,7 +20,7 @@ import SkillGroup from "../components/Tiles/Skills/SkillGroup";
 
 export default function Home() {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 scroll-smooth">
       {/* Kan bytte div med <Layout /> component jeg kan lage */}
       <Head>
         <title>Update 01 - Rikard Dotzler Portfolio</title>
