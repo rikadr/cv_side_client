@@ -17,14 +17,16 @@ const SirkelNavn = () => {
     )
   }
 
-  const Boble = ({tekst, bg1, bg2, url}) => {
+  const Boble = ({tekst, temp, bg1, bg2, url}) => {
     return (
       <div className="w-min border-0 border-red-600 rounded-full"><Link href={`${url}`}>
         <a><div className={`
         w-28 sm:w-32 h-28 sm:h-32 flex justify-center rounded-full 
         font-titleItal text-e sm:text-g hover:text-white hover:font-semibold
         bg-gradient-to-br ${bg1} ${bg2} hover:to-yellow-400/80 backdrop-filter backdrop-blur-sm shadow-lg hover:shadow-yellow-400/30`}>
-            <div className="w-full h-full rounded-full m-auto text-center pt-8 sm:pt-9 hover:animate-shake">{tekst}</div>
+            <div className="w-full h-full rounded-full m-auto text-center pt-8 sm:pt-9 hover:animate-shake">{tekst}
+            <div className="absolute text-gray-100/50 text-v translate-x-[1.8rem] -translate-y-[5.7rem]">{temp}</div>
+            </div>
           </div></a>
       </Link></div>
     )
@@ -57,7 +59,7 @@ const SirkelNavn = () => {
           </div>
 
           <div className="absolute mt-[14rem] sm:mt-[16rem] ml-[3rem] sm:ml-[3rem] ">
-            <Boble tekst="Contact" bg1="from-red-500/30" bg2="to-blue-200/80 shadow-blue-200/50 animate-float1 animation-delay-2"  url="/404" />
+            <Boble tekst="Contact" temp="&#9888;" bg1="from-red-500/30" bg2="to-blue-200/80 shadow-blue-200/50 animate-float1 animation-delay-2"  url="" />
           </div>
 
         </div>
