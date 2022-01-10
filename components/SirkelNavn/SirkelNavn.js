@@ -25,7 +25,7 @@ const SirkelNavn = () => {
         font-titleItal text-e sm:text-g hover:text-white hover:font-semibold
         bg-gradient-to-br ${bg1} ${bg2} hover:to-yellow-400/80 backdrop-filter backdrop-blur-sm shadow-lg hover:shadow-yellow-400/30`}>
             <div className="w-full h-full rounded-full m-auto text-center pt-8 sm:pt-9 hover:animate-shake">{tekst}
-            <div className="absolute text-gray-100/50 text-v translate-x-[1.8rem] -translate-y-[5.7rem]">{temp}</div>
+            <div className="absolute text-gray-100/50 text-r sm:text-v translate-x-[1.5rem] sm:translate-x-[1.8rem] -translate-y-[4.7rem] sm:-translate-y-[5.7rem]">{temp}</div>
             </div>
           </div></a>
       </Link></div>

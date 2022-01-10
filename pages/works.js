@@ -14,7 +14,7 @@ export default function Works() {
   return (
     <div className="min-h-screen bg-gray-100">
       <Head>
-        <title>Works</title>
+        <title>Works - Rikard Dotzler</title>
       </Head>
       {/*<BGBox />*/}
       
