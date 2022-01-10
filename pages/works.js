@@ -28,7 +28,7 @@ export default function Works() {
         
         
 
-        <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Aqua-Tech nettsted">
+        <ContentCardSplitPreview id="" image="works/aquatech-preview.jpg" alt="Design" q="60" heading="Aqua-Tech nettsted">
           <p> WIP nettside utvikles utenom studiet med to medstudenter.
           React front end, nest backend hostet på AWS.</p>
           <br/>
@@ -42,7 +42,7 @@ export default function Works() {
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
 
-        <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Eksamen - SØPL">
+        <ContentCardSplitPreview id="" image="works/sopl-preview.jpg" alt="Design" q="60" heading="Eksamen - SØPL">
           <p> Eksamensprosjekt høst 2020 i faget "Webutvikling og inkluderende design".
             Ingen rammeverk var tillatt, kun ren HTML, CSS og enkel JavaScript. Karakter: A <br/><br/>
             Min rolle i prosjektet: Design, foto/illustrasjon, delt ansvar for front end utvikling.
@@ -54,7 +54,7 @@ export default function Works() {
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
 
-        <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Personlig side">
+        <ContentCardSplitPreview id="" image="works/cv-preview.jpg" alt="Design" q="60" heading="Personlig side">
           <p> WIP personlig CV-side og portefølje for meg som voksende designer og utvikler.
             Alt arbeid med siden er utført av meg.<br/><br/>
             (Tidlig fase av utvikling, oppdateringer lanseres fortløpende)<br/></p>
@@ -65,7 +65,7 @@ export default function Works() {
           </ButtonArrayContainer>
         </ContentCardSplitPreview>
 
-        <ContentCardSplitPreview id="" image="designbig.jpg" alt="Design" q="60" heading="Responsive design øvelse">
+        <ContentCardSplitPreview id="" image="works/responsive-preview.jpg" alt="Design" q="60" heading="Responsive design øvelse">
           <p> Et studieprosjekt i faget "Webutvikling og inkluderende design" i responsive design. 
             Mockup designet av meg.</p>
           <br/>

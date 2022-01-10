@@ -10,7 +10,7 @@ const NavHomePlayground = () => {
             <div
             className="w-48 h-24 sm:w-52 sm:h-28 text-white animate-float1 
                        bg-gradient-to-br from-green-400 to-blue-400 hover:to-yellow-400/80 backdrop-blur-sm 
-                       rounded-full grid content-center justify-center shadow-xl hover:shadow-yellow-400/30">
+                       rounded-full grid content-center justify-center shadow-xl shadow-blue-400/50 hover:shadow-yellow-400/30">
             Playground
             </div>
         </a>
