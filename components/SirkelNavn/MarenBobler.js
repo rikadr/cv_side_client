@@ -22,8 +22,8 @@ const MarenBobler = () => {
 
   return (
     <div className="relative h-screen ">
-      <div className="w-full md:w-[37rem] lg:w-7/12 w1300:w-830 h-min md:h-5/6 m-auto border-violet-500 border-0 
-                    grid grid-cols-1 md:grid-cols-1 items-center">  
+      <div className="w-full md:w-[37rem] lg:w-7/12 w1300:w-830 h-5/6 m-auto border-violet-500 border-0 
+                    grid grid-cols-1 items-center">  
         <div className="w-[15rem] h-[29rem] m-auto pl-[2rem] border-0 border-blue-600">
 
           <div className="absolute ml-[1rem] ">
