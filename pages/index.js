@@ -1,13 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Head from "next/head";
 
-import Image from "next/image";
-
-import BGBox from "../components/BG/BGBox";
 import SirkelNavn from "../components/SirkelNavn/SirkelNavn";
-import ContentCardSplit from "../components/ContentCard/ContentCardSplit";
-import ContentCardSplitText from "../components/ContentCard/ContentCardSplitText";
-import IntersectEnter from "../components/Intersect/IntersectEnter";
 import Tile from "../components/Tiles/Tile";
 import TileAbout from "../components/Tiles/TileAbout";
 import TileAboutYellow from "../components/Tiles/TileAboutYellow";
@@ -151,7 +145,7 @@ export default function Home() {
             </SkillCol>
           </SkillGroup>
         </div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
         </main>
     </div>
   );
